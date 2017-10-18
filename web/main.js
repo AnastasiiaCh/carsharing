@@ -1,4 +1,4 @@
-function mydni() {
+ï»¿function mydni() {
   // var x=0;
    var dni = parseInt($("#dni").val());
   if (isNaN(dni) || dni <1)  {
@@ -66,7 +66,7 @@ function summa() {
     itog += 2000;
   }
   
-  $("#result").text(itog+" ðóá.");
+  $("#result").text(itog+" Ñ€ÑƒÐ±.");
 }  
 
 $("#calc").change(summa);
